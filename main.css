@@ -1,0 +1,54 @@
+* {
+      box-sizing: border-box;
+      margin: 0px;
+      padding: 0px;
+    }
+
+header {
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	border-bottom: 1px solid gray;
+	line-height: 50px;
+	white-space: nowrap;
+}
+
+nav {	
+	float: right;
+}
+
+ul li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+h1 {
+	font-family: "Times New Roman";
+	float: left;
+	padding-left: 10px;
+}
+
+header a {
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 24px;
+}
+
+main {
+	padding: 100px 60px;
+}
+
+img {
+	height: 25px;
+}
+
+form {
+	float: left;
+}
+
+.btn {
+	border: 1px solid gray;
+	border-radius: 5px;
+	padding: 5px;
+	text-decoration-line: none;
+}
